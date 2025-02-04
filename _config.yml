@@ -1,0 +1,26 @@
+name: Cruso de edición digital
+description: Sitio estático para la presentación del curso de edición digital "Competencias transversales para la digitalización del patrimonio textual", organizado por la Universidad de Verona y el Laboratorio de Humanidades Digitales del CONICET.
+# paginate: 10
+baseurl: "/curso-edicion-digital"
+# url: "" 
+# the base hostname & protocol for your site, e.g. http://example.com
+
+# Permalinks
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# This is to keep things tidy.
+include: ['_pages']
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor
