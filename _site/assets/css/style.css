@@ -42,12 +42,16 @@
 		text-align: center;
 	}
 	
-		h2
+		 h2
 		{
 			font-size:1.7em;
 			letter-spacing: -0.025em;
 		}
-	
+		h3
+		{
+			font-size:1.4em;
+			letter-spacing: -0.025em;
+		}
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
